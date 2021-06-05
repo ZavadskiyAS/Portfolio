@@ -4,7 +4,7 @@
 
 /*==================== VARIABLES CSS ====================*/
 :root {
-    --header-height: 3 rem;
+    --header-height: 3rem;
 
     /*========== Colors ==========*/
     /* Change favorite color */
@@ -176,16 +176,16 @@ img{
 
 .nav__toggle{
     font-size: 1.1rem;
+    cursor: pointer;
 }
 .nav__toggle:hover{
     color: var(--first-color);
-    cursor: pointer;
 }
 
-@media sreen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .nav__menu {
         position: fixed;
-        bottom: 0;
+        bottom: -100%;
         left: 0;
         width: 100%;
         background-color: var(--body-color);
@@ -230,6 +230,10 @@ img{
 
 .nav__close:hover{
     color: var(--first-color-alt);
+}
+
+.show-menu{
+    bottom: 0;
 }
 /* show menu */
 
