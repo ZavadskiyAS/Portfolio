@@ -528,7 +528,7 @@ img{
 }
 
 .qualification__icon{
-    font-style: 1.8rem;
+    font-size: 1.8rem;
     margin-right: var(--mb-0-25);
 }
 
@@ -576,6 +576,10 @@ img{
 
 .qualification__active[data-content]{
     display: block;
+}
+
+.qualification__buttton.qualification__active{
+    color: var(--first-color);
 }
 /*==================== SERVICES ====================*/
 
