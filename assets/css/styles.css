@@ -352,7 +352,7 @@ img{
     align-items: center;
 }
 
-.button-small{
+.button--small{
     padding: .75rem 1rem;
 }
 
@@ -362,7 +362,7 @@ img{
     color: var(--first-color);
 }
 
-.button-link:hover{
+.button--link:hover{
     background-color: transparent;
     color: var(--first-color-alt);
 }
@@ -613,7 +613,7 @@ img{
 }
 
 .services__content:hover{
-    box-shadow: 0 4px 8px rgba(0, 0, 0, .15);
+    box-shadow: 0 4px 8px rgba(0, 0, 0,.15);
 }
 
 .services__icon{
@@ -624,7 +624,7 @@ img{
 }
 
 .services__title{
-    font-style: var(--h3-font-size);
+    font-size: var(--h3-font-size);
     margin-bottom: var(--mb-1);
     font-weight: var(--font-medium);
 }
@@ -652,21 +652,21 @@ img{
     z-index: var(--z-modal);
     opacity: 0;
     visibility: hidden;
-    transition: 0.3s;
+    transition: .3s;
 }
 
 .services__modal-content{
     position: relative;
     background-color: var(--container-color);
     padding: 1.5rem;
-    border-radius: 0.5rem;
+    border-radius: .5rem;
 }
 
 .services__modal-services{
     row-gap: 1rem;
 }
 
-.services__modal-services{
+.services__modal-service{
     display: flex;
 }
 
@@ -691,7 +691,7 @@ img{
 }
 /* Active Modal */
 
-.acrive-modal{
+.active-modal{
     opacity: 1;
     visibility: visible;
 }
