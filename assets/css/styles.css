@@ -909,12 +909,14 @@ img{
     background-color: var(--first-color-alt);
 }
 
-.scrollup__icon{
+.scroll__icon{
     font-size: 1.5rem;
     color: #FFF;
 }
 /* Show scroll */
-
+.show-scroll{
+    bottom: 5rem;
+}
 
 /*========== SCROLL BAR ==========*/
 
