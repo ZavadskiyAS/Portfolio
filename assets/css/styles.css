@@ -998,10 +998,35 @@ img{
         grid-template-columns: max-content;
         justify-content: center;
     }
+    .services__content{
+        padding-right: 3.5rem;
+    }
+    .services__modal{
+        padding: 0 .5rem;
+    }
+
+    .project__img{
+        width: 200px;
+    }
+
+
 }
 
 
 /* For medium devices */
+@media screen and (min-width: 568px) {
+    .home__content{
+        grid-template-columns: max-content  1fr 1fr;
+    }
 
+    .home__data{
+        grid-column: initial;
+    }
+
+    .home__img{
+        order: 1;
+        justify-self: center;
+    }
+}
 
 /* For large devices */
