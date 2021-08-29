@@ -595,13 +595,13 @@ img{
 }
 
 .qualification__title{
-    font-style: var(--normal-font-size);
+    font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
 }
 
 .qualification__subtitle{
     display: inline-block;
-    font-style: var(--small-font-size);
+    font-size: var(--small-font-size);
     margin-bottom: var(--mb-1);
 }
 
