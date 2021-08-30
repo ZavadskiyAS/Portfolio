@@ -1256,3 +1256,7 @@ img{
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
+.button{
+    --animate-duration: 2s;
+}
