@@ -111,9 +111,6 @@ let swiper = new Swiper('.portfolio__container', {
     keyboard: true,
   });
 
-/*==================== TESTIMONIAL ====================*/
-
-
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
 
 const sections = document.querySelectorAll('section[id]')
